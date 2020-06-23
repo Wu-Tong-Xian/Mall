@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>实现查找关键字高亮显示</title>
+<style type="text/css">
+     #box{ 
+	    height:200px; 
+	    width:500px;
+	    margin:50px auto;
+	    border:2px solid #eee;
+	    text-indent:20px;
+    }
+    #inpt{
+        text-align:center;
+    }
+    li{
+    	list-style-type: none;
+    	margin: 10px 0;
+    }
+           
+</style>
+</head>
+<body>
+    <div id="box">
+    	<ul>
+	    	<li>测试文本1：博主大帅哥一枚，</li>
+		    <li>测试文本2：转载收藏此博文的比博主还帅还漂亮。</li>
+		    <li>测试文本3：博主有点飘；早晚要挨刀！</li>
+    	</ul>
+    </div>
+    <div id="inpt">
+       <input type="text" id="inputs" placeholder="请输入关键字"/>                          
+       <input type="button" id="btn" value="确定"/>
+    </div>
+    <script type="text/javascript">
+        var oBox = document.getElementById("box");  
+        var oContent = oBox.innerHTML;
+        var inputs = document.getElementById("inputs");
+        var oBtn = document.getElementById("btn");
+        oBtn.onclick = function(){
+            var inputs = inputs.value;
+            var findText = oContent.split(inputs);
+            oBox.innerHTML = findText.join('<span style="color:red;">' + inputs + '</span> ');
+        };
+ 
+    </script>
+</body>
+
+
+</html>

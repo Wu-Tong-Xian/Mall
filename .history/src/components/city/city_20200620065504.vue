@@ -1,0 +1,70 @@
+<template>
+  <div class="city" >
+  <!-- 在首页组件做判断 如果加载了地址就显示当前地址 并且传参-->
+    <div v-if="city" class='fz14'><van-icon name="location" @click='goChoosecity(city)' /> {{city}}</div>
+    <!-- 如果没有加载地址 就显示定位中 并且传参-->
+    <div v-else class='fz14 col' @click='goChoosecity(city)'><van-loading size="24px">定位中...</van-loading></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  components: {},
+  data() {
+    return {
+      city:''
+    };
+  },
+  methods: {
+    // 跳转到手动选择城市
+    goChoosecity(val){
+      console.log(val);
+      this.$router.path({name:'/choosecity',query:{city:val}})
+    }
+  },
+  mounted() {
+    let _this=this
+    AMap.plugin("AMap.Geolocation", function() {
+      var geolocation = new AMap.Geolocation({
+        // 是否使用高精度定位，默认：true
+        enableHighAccuracy: true,
+        // 设置定位超时时间，默认：无穷大
+        timeout: 10000,
+        // 定位按钮的停靠位置的偏移量，默认：Pixel(10, 20)
+        buttonOffset: new AMap.Pixel(10, 20),
+        //  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        zoomToAccuracy: true,
+        //  定位按钮的排放位置,  RB表示右下
+        buttonPosition: "RB"
+      });
+
+      geolocation.getCurrentPosition();
+      AMap.event.addListener(geolocation, "complete", onComplete);
+      AMap.event.addListener(geolocation, "error", onError);
+
+      function onComplete(data) {
+        // data是具体的定位信息
+        _this.city =data.addressComponent.city
+        console.log(_this.city);
+      }
+
+      function onError(data) {
+        // 定位出错
+      }
+    });
+  },
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+.city {
+  width: 90px;
+  height: 28px;
+  padding-top: 10px;
+
+}
+</style>

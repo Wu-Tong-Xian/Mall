@@ -1,0 +1,177 @@
+/* 整理出来的css 公共样式 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.d-block {
+    display: block
+}
+
+// 文字居中
+.t-center {
+    text-align: center;
+}
+
+
+/* display */
+
+.fl {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+
+/* 两边有间距比everny大一点中间等分 */
+
+.j-around {
+    justify-content: space-around;
+}
+
+
+/* 左右靠边 中间等分 */
+
+.j-between {
+    justify-content: space-between;
+}
+
+
+/* 两边有间距中间等分 */
+
+.j-evenly {
+    justify-content: space-evenly;
+}
+
+// 常用盒子大小
+.w-1200 {
+    width: 1200px;
+}
+
+.w-1000 {
+    width: 1000px;
+}
+
+// 常用字体的两个颜色和大小
+.col1 {
+    color: #A1968C;
+}
+
+.col2 {
+    color: #1D3447;
+}
+
+.col3 {
+    color: #F9F9F9;
+}
+
+.fz12 {
+    font-size: 12px;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
+.fz18 {
+    font-size: 20px;
+}
+
+.pd-t20 {
+    padding-top: 20px;
+}
+
+.pd-t10 {
+    padding-top: 10px;
+}
+
+.pd-tb20 {
+    padding: 20px 0 20px 0;
+}
+
+// 外边距
+.m0 {
+    margin: 0 auto;
+}
+
+.mg20 {
+    margin: 20px;
+}
+
+.mg-b20 {
+    margin-bottom: 20px;
+}
+
+.mg-tb20 {
+    margin: 20px 0 20px 0;
+}
+
+.mg-t10 {
+    margin-top: 10px;
+}
+
+.mg-tb10 {
+    margin: 10px 0 10px 0;
+}
+
+.mg-l20 {
+    margin-left: 20px;
+}
+
+.mg-l10 {
+    margin-left: 10px;
+}
+
+.mg-t20 {
+    margin-top: 20px;
+}
+
+.mg-r20 {
+    margin-right: 20px;
+}
+
+.mg-r10 {
+    margin-right: 10px;
+}
+.mg-lr20 {
+    margin: 0 20px 0 20px;
+}
+
+// 桌面背景颜色
+.box {
+    background: #F9F9F9;
+}
+
+.h-hover:hover {
+    color: #08BF91;
+}
+.c-hover:hover {
+    color: #000;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+// 鼠标移过变小手
+.c-pointer {
+    cursor:pointer
+}
+// 超出本分文字隐藏
+.t-none {
+white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  width: 28vm;
+}
+// <div class="top fl j-between mg-tb20">
+//        <div class="fl">
+//        <div class="fz18 mg-r10"> 楼+ 实战课程 |  </div>
+//        <div class="mg-top" >   定期开班，导师助教全程辅导，最快最优成长  </div>
+//      </div>
+//      <div class="mg-top "> 更多> </div>
+//      </div>
