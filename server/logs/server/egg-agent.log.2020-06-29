@@ -1,0 +1,103 @@
+2020-06-28 00:00:01,044 INFO 7916 [egg-logrotator] agent logger reload: got log-reload message
+2020-06-28 11:59:25,474 INFO 12804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\86189\\Desktop\\mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-28 11:59:25,661 INFO 12804 [egg:core] dump config after load, 172ms
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher] Start watching: ["C:\\Users\\86189\\Desktop\\mall\\server\\app","C:\\Users\\86189\\Desktop\\mall\\server\\config","C:\\Users\\86189\\Desktop\\mall\\server\\mocks","C:\\Users\\86189\\Desktop\\mall\\server\\mocks_proxy","C:\\Users\\86189\\Desktop\\mall\\server\\app.js"]
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\app"
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\config"
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\mocks"
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\mocks_proxy"
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\app.js"
+2020-06-28 11:59:26,255 INFO 12804 [egg-watcher:agent] watcher start success
+2020-06-28 11:59:26,302 INFO 12804 [egg:core] dump config after ready, 16ms
+2020-06-28 12:02:03,440 INFO 7888 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\86189\\Desktop\\mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-28 12:02:03,450 INFO 7888 [egg:core] dump config after load, 6ms
+2020-06-28 12:02:03,499 INFO 7888 [egg-watcher] Start watching: ["C:\\Users\\86189\\Desktop\\mall\\server\\app","C:\\Users\\86189\\Desktop\\mall\\server\\config","C:\\Users\\86189\\Desktop\\mall\\server\\mocks","C:\\Users\\86189\\Desktop\\mall\\server\\mocks_proxy","C:\\Users\\86189\\Desktop\\mall\\server\\app.js"]
+2020-06-28 12:02:03,499 INFO 7888 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\app"
+2020-06-28 12:02:03,499 INFO 7888 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\config"
+2020-06-28 12:02:03,500 INFO 7888 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\mocks"
+2020-06-28 12:02:03,500 INFO 7888 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\mocks_proxy"
+2020-06-28 12:02:03,500 INFO 7888 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\app.js"
+2020-06-28 12:02:03,500 INFO 7888 [egg-watcher:agent] watcher start success
+2020-06-28 12:02:03,518 INFO 7888 [egg:core] dump config after ready, 10ms
+2020-06-28 13:35:54,774 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 2828900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-28 18:18:31,614 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 176461ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-28 19:20:43,973 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 1832241ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-28 21:07:53,697 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 6429248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-29 06:26:26,429 INFO 5752 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\86189\\Desktop\\mall\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-29 06:26:26,475 INFO 5752 [egg:core] dump config after load, 16ms
+2020-06-29 06:26:26,695 INFO 5752 [egg-watcher] Start watching: ["C:\\Users\\86189\\Desktop\\mall\\server\\app","C:\\Users\\86189\\Desktop\\mall\\server\\config","C:\\Users\\86189\\Desktop\\mall\\server\\mocks","C:\\Users\\86189\\Desktop\\mall\\server\\mocks_proxy","C:\\Users\\86189\\Desktop\\mall\\server\\app.js"]
+2020-06-29 06:26:26,695 INFO 5752 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\app"
+2020-06-29 06:26:26,696 INFO 5752 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\config"
+2020-06-29 06:26:26,697 INFO 5752 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\mocks"
+2020-06-29 06:26:26,697 INFO 5752 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\mocks_proxy"
+2020-06-29 06:26:26,697 INFO 5752 [egg-watcher] Start watching: "C:\\Users\\86189\\Desktop\\mall\\server\\app.js"
+2020-06-29 06:26:26,698 INFO 5752 [egg-watcher:agent] watcher start success
+2020-06-29 06:26:26,744 INFO 5752 [egg:core] dump config after ready, 16ms
+2020-06-29 08:04:17,706 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 1882166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 13:33:49,003 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 3370966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 20:01:15,425 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 3945363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 20:29:00,651 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 705156ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 20:57:04,384 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 402481ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+

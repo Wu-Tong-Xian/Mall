@@ -1,0 +1,1200 @@
+2020-06-24 13:32:39,245 ERROR 10792 nodejs.ClusterClientNoResponseError: client no response in 2668366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10792
+hostname: Life-lik-summer-flower
+
+2020-06-26 16:58:51,859 ERROR 11216 [-/127.0.0.1/-/59ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '4cf7744443f94557b7c6ad37dca9c4db' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: '4cf7744443f94557b7c6ad37dca9c4db' }\""
+kind: "string"
+value: {"id":"4cf7744443f94557b7c6ad37dca9c4db"}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 16:59:06,117 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 16:59:40,011 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef306062740c81eb80ebd29' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef306062740c81eb80ebd29' }\""
+kind: "string"
+value: {"id":"5ef306062740c81eb80ebd29"}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:00:07,886 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5eeaee1562582615dcf3067b' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5eeaee1562582615dcf3067b' }\""
+kind: "string"
+value: {"id":"5eeaee1562582615dcf3067b"}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:05:18,280 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5eeaee1562582615dcf3067b' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5eeaee1562582615dcf3067b' }\""
+kind: "string"
+value: {"id":"5eeaee1562582615dcf3067b"}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:12:14,378 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '5eeaee1562582615dcf3067b' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '5eeaee1562582615dcf3067b' ] }\""
+kind: "string"
+value: {"id":["5eeaee1562582615dcf3067b"]}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:19:10,703 ERROR 11216 [-/127.0.0.1/-/6ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '1': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ '1': '' }\""
+kind: "string"
+value: {"1":""}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:20:05,068 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '1': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ '1': '' }\""
+kind: "string"
+value: {"1":""}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:20:15,857 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '1': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ '1': '' }\""
+kind: "string"
+value: {"1":""}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:21:26,447 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '1': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ '1': '' }\""
+kind: "string"
+value: {"1":""}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:22:36,365 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: 1 }\""
+kind: "string"
+value: {"id":1}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:24:19,320 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: 1 }\""
+kind: "string"
+value: {"id":1}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:24:26,857 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ id: 1 }\""
+kind: "string"
+value: {"id":1}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 17:26:32,729 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '1': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ '1': '' }\""
+kind: "string"
+value: {"1":""}
+path: "cid"
+reason: null
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:17:37,626 ERROR 11216 [-/127.0.0.1/-/56ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"5eeaee1562582615dcf3067b","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:18:31,374 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:18:32,617 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":4,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:18:41,702 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:20:45,798 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:21:47,391 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":4,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:23:59,893 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:24:26,361 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":3,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:25:20,488 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '5ef5c67222ec132bd0523eea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '5ef5c67222ec132bd0523eea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"5ef5c67222ec132bd0523eea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:26:39,914 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '5ef5c73922ec132bd0523eec', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '5ef5c73922ec132bd0523eec', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"5ef5c73922ec132bd0523eec","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:26:48,159 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '5ef5c73922ec132bd0523eec', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '5ef5c73922ec132bd0523eec', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"5ef5c73922ec132bd0523eec","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:27:00,125 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:27:07,093 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"5eeaee1562582615dcf3067b","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:27:07,945 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":3,"id":"5eeaee1562582615dcf3067b","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:27:08,144 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":4,"id":"5eeaee1562582615dcf3067b","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:27:08,198 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 5, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 5, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":5,"id":"5eeaee1562582615dcf3067b","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:27:08,317 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 6, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 6, id: '5eeaee1562582615dcf3067b', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":6,"id":"5eeaee1562582615dcf3067b","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:29:19,959 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:29:21,579 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, mallPrice: 109 }\""
+kind: "Number"
+value: {"count":4,"mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:29:21,820 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 5, mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 5, mallPrice: 109 }\""
+kind: "Number"
+value: {"count":5,"mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:29:21,855 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 6, mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 6, mallPrice: 109 }\""
+kind: "Number"
+value: {"count":6,"mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:29:22,012 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 7, mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 7, mallPrice: 109 }\""
+kind: "Number"
+value: {"count":7,"mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:29:32,371 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{}" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "Number"
+value: {}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:31:51,706 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:32:08,259 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":4,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:34:37,909 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:40:22,488 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:48:46,611 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:48:58,511 ERROR 11216 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:49:02,858 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":4,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:49:59,580 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:52:59,285 ERROR 11216 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:54:08,950 ERROR 11216 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 18:58:20,442 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:00:29,732 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:00:31,587 ERROR 11216 [-/127.0.0.1/-/11ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":3,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:00:47,189 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:01:37,050 ERROR 11216 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:04:31,761 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:04:40,539 ERROR 11216 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:08:01,546 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:08:12,817 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":4,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:14:42,194 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"5eeaee1562582615dcf3067b","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:15:07,394 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 4, id: '5eeaee1562582615dcf3067b', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 4, id: '5eeaee1562582615dcf3067b', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":4,"id":"5eeaee1562582615dcf3067b","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:19:51,106 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '5eeaee1562582615dcf3067b', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"5eeaee1562582615dcf3067b","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:22:09,298 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:22:34,950 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":3,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:33:36,414 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:34:23,183 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:37:44,840 ERROR 11216 [-/127.0.0.1/-/4ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{
+  count: [
+    {
+      add_time: 1593169522162,
+      check: false,
+      count: 2,
+      _id: '5ef5d67222ec132bd0523eed',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 16.8,
+      cid: '238bc2e023844769a6b67d9a4c04b2ea',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg',
+      name: '纳美小苏打源生护龈牙膏3010/支',
+      mallPrice: 16.8,
+      __v: 0
+    },
+    {
+      add_time: 1593165625762,
+      check: false,
+      count: 2,
+      _id: '5ef5c73922ec132bd0523eec',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593165625074,
+      check: false,
+      count: 3,
+      _id: '5ef5c73922ec132bd0523eeb',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ],
+  id: '24afea564e5248b5a2bc59da95f09911',
+  mallPrice: 6
+}" at path "count"
+  count: [
+    {
+      add_time: 1593169522162,
+      check: false,
+      count: 2,
+      _id: '5ef5d67222ec132bd0523eed',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 16.8,
+      cid: '238bc2e023844769a6b67d9a4c04b2ea',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg',
+      name: '纳美小苏打源生护龈牙膏3010/支',
+      mallPrice: 16.8,
+      __v: 0
+    },
+    {
+      add_time: 1593165625762,
+      check: false,
+      count: 2,
+      _id: '5ef5c73922ec132bd0523eec',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593165625074,
+      check: false,
+      count: 3,
+      _id: '5ef5c73922ec132bd0523eeb',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ],
+  id: '24afea564e5248b5a2bc59da95f09911',
+  mallPrice: 6
+}" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{\n  count: [\n    {\n      add_time: 1593169522162,\n      check: false,\n      count: 2,\n      _id: '5ef5d67222ec132bd0523eed',\n      uid: '5eeaee1562582615dcf3067b',\n      present_price: 16.8,\n      cid: '238bc2e023844769a6b67d9a4c04b2ea',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg',\n      name: '纳美小苏打源生护龈牙膏3010/支',\n      mallPrice: 16.8,\n      __v: 0\n    },\n    {\n      add_time: 1593165625762,\n      check: false,\n      count: 2,\n      _id: '5ef5c73922ec132bd0523eec',\n      uid: '5eeaee1562582615dcf3067b',\n      present_price: 109,\n      cid: '418fc60784d04e71beffe1ce5174c947',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',\n      name: '睿嫣白檀香护发素500ml/瓶',\n      mallPrice: 109,\n      __v: 0\n    },\n    {\n      add_time: 1593165625074,\n      check: false,\n      count: 3,\n      _id: '5ef5c73922ec132bd0523eeb',\n      uid: '5eeaee1562582615dcf3067b',\n      present_price: 6,\n      cid: '24afea564e5248b5a2bc59da95f09911',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',\n      name: '果倍爽橙汁饮料330ml/瓶',\n      mallPrice: 6,\n      __v: 0\n    }\n  ],\n  id: '24afea564e5248b5a2bc59da95f09911',\n  mallPrice: 6\n}\""
+kind: "Number"
+value: {"count":[{"add_time":1593169522162,"check":false,"count":2,"_id":"5ef5d67222ec132bd0523eed","uid":"5eeaee1562582615dcf3067b","present_price":16.8,"cid":"238bc2e023844769a6b67d9a4c04b2ea","image_path":"http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg","name":"纳美小苏打源生护龈牙膏3010/支","mallPrice":16.8,"__v":0},{"add_time":1593165625762,"check":false,"count":2,"_id":"5ef5c73922ec132bd0523eec","uid":"5eeaee1562582615dcf3067b","present_price":109,"cid":"418fc60784d04e71beffe1ce5174c947","image_path":"http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg","name":"睿嫣白檀香护发素500ml/瓶","mallPrice":109,"__v":0},{"add_time":1593165625074,"check":false,"count":3,"_id":"5ef5c73922ec132bd0523eeb","uid":"5eeaee1562582615dcf3067b","present_price":6,"cid":"24afea564e5248b5a2bc59da95f09911","image_path":"http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg","name":"果倍爽橙汁饮料330ml/瓶","mallPrice":6,"__v":0}],"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:37:54,368 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{
+  count: [
+    {
+      add_time: 1593169522162,
+      check: false,
+      count: 2,
+      _id: '5ef5d67222ec132bd0523eed',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 16.8,
+      cid: '238bc2e023844769a6b67d9a4c04b2ea',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg',
+      name: '纳美小苏打源生护龈牙膏3010/支',
+      mallPrice: 16.8,
+      __v: 0
+    },
+    {
+      add_time: 1593165625762,
+      check: false,
+      count: 3,
+      _id: '5ef5c73922ec132bd0523eec',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593165625074,
+      check: false,
+      count: 2,
+      _id: '5ef5c73922ec132bd0523eeb',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ],
+  id: '418fc60784d04e71beffe1ce5174c947',
+  mallPrice: 109
+}" at path "count"
+  count: [
+    {
+      add_time: 1593169522162,
+      check: false,
+      count: 2,
+      _id: '5ef5d67222ec132bd0523eed',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 16.8,
+      cid: '238bc2e023844769a6b67d9a4c04b2ea',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg',
+      name: '纳美小苏打源生护龈牙膏3010/支',
+      mallPrice: 16.8,
+      __v: 0
+    },
+    {
+      add_time: 1593165625762,
+      check: false,
+      count: 3,
+      _id: '5ef5c73922ec132bd0523eec',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 109,
+      cid: '418fc60784d04e71beffe1ce5174c947',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',
+      name: '睿嫣白檀香护发素500ml/瓶',
+      mallPrice: 109,
+      __v: 0
+    },
+    {
+      add_time: 1593165625074,
+      check: false,
+      count: 2,
+      _id: '5ef5c73922ec132bd0523eeb',
+      uid: '5eeaee1562582615dcf3067b',
+      present_price: 6,
+      cid: '24afea564e5248b5a2bc59da95f09911',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',
+      name: '果倍爽橙汁饮料330ml/瓶',
+      mallPrice: 6,
+      __v: 0
+    }
+  ],
+  id: '418fc60784d04e71beffe1ce5174c947',
+  mallPrice: 109
+}" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{\n  count: [\n    {\n      add_time: 1593169522162,\n      check: false,\n      count: 2,\n      _id: '5ef5d67222ec132bd0523eed',\n      uid: '5eeaee1562582615dcf3067b',\n      present_price: 16.8,\n      cid: '238bc2e023844769a6b67d9a4c04b2ea',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg',\n      name: '纳美小苏打源生护龈牙膏3010/支',\n      mallPrice: 16.8,\n      __v: 0\n    },\n    {\n      add_time: 1593165625762,\n      check: false,\n      count: 3,\n      _id: '5ef5c73922ec132bd0523eec',\n      uid: '5eeaee1562582615dcf3067b',\n      present_price: 109,\n      cid: '418fc60784d04e71beffe1ce5174c947',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg',\n      name: '睿嫣白檀香护发素500ml/瓶',\n      mallPrice: 109,\n      __v: 0\n    },\n    {\n      add_time: 1593165625074,\n      check: false,\n      count: 2,\n      _id: '5ef5c73922ec132bd0523eeb',\n      uid: '5eeaee1562582615dcf3067b',\n      present_price: 6,\n      cid: '24afea564e5248b5a2bc59da95f09911',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg',\n      name: '果倍爽橙汁饮料330ml/瓶',\n      mallPrice: 6,\n      __v: 0\n    }\n  ],\n  id: '418fc60784d04e71beffe1ce5174c947',\n  mallPrice: 109\n}\""
+kind: "Number"
+value: {"count":[{"add_time":1593169522162,"check":false,"count":2,"_id":"5ef5d67222ec132bd0523eed","uid":"5eeaee1562582615dcf3067b","present_price":16.8,"cid":"238bc2e023844769a6b67d9a4c04b2ea","image_path":"http://images.baixingliangfan.cn/compressedPic/20180411083404_6619.jpg","name":"纳美小苏打源生护龈牙膏3010/支","mallPrice":16.8,"__v":0},{"add_time":1593165625762,"check":false,"count":3,"_id":"5ef5c73922ec132bd0523eec","uid":"5eeaee1562582615dcf3067b","present_price":109,"cid":"418fc60784d04e71beffe1ce5174c947","image_path":"http://images.baixingliangfan.cn/compressedPic/20180409155457_3302.jpg","name":"睿嫣白檀香护发素500ml/瓶","mallPrice":109,"__v":0},{"add_time":1593165625074,"check":false,"count":2,"_id":"5ef5c73922ec132bd0523eeb","uid":"5eeaee1562582615dcf3067b","present_price":6,"cid":"24afea564e5248b5a2bc59da95f09911","image_path":"http://images.baixingliangfan.cn/compressedPic/20180413093730_3138.jpg","name":"果倍爽橙汁饮料330ml/瓶","mallPrice":6,"__v":0}],"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:38:09,254 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":3,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:38:42,804 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 6, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 6, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":6,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:38:50,846 ERROR 11216 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 6, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 6, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":6,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:51:42,124 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":3,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:51:42,570 ERROR 11216 [-/127.0.0.1/-/1ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '418fc60784d04e71beffe1ce5174c947', mallPrice: 109 }\""
+kind: "Number"
+value: {"count":3,"id":"418fc60784d04e71beffe1ce5174c947","mallPrice":109}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-26 19:51:43,693 ERROR 11216 [-/127.0.0.1/-/3ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, id: '24afea564e5248b5a2bc59da95f09911', mallPrice: 6 }\""
+kind: "Number"
+value: {"count":3,"id":"24afea564e5248b5a2bc59da95f09911","mallPrice":6}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 11216
+hostname: Wu-Tong-Xian
+
+2020-06-27 10:50:51,027 ERROR 4748 [-/127.0.0.1/-/30ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: '238bc2e023844769a6b67d9a4c04b2ea', mallPrice: 16.8 }\""
+kind: "Number"
+value: {"count":2,"id":"238bc2e023844769a6b67d9a4c04b2ea","mallPrice":16.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 4748
+hostname: Wu-Tong-Xian
+
+2020-06-27 22:17:37,907 ERROR 8332 nodejs.ClusterClientNoResponseError: client no response in 1671265ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 8332
+hostname: Wu-Tong-Xian
+

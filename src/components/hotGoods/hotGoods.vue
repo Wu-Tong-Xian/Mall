@@ -3,18 +3,18 @@
     <div class="fl hotGoods fl-wrap">
       <div v-for="(item,index) in hotGoods" :key="index">
         <div>
-          <img :src="item.image" alt class="img" />
+          <img :src="item.image" alt class="img" @click="godetails(item.goodsId,index)" />
         </div>
-        <div class="title t-none">{{item.name}}</div>
+        <div class="title t-none" @click="godetails(item.goodsId,index)">{{item.name}}</div>
         <div class="fl mg-lr20">
           <div class="mg-l20 mallPrice">{{item.mallPrice}}</div>
-          <div class="mg-l20 col1 fz14 price">{{item.price}}</div>
+          <div class="mg-l20 mg-t2 col1 fz14 price">{{item.price}}</div>
         </div>
       </div>
     </div>
 
     <div class="mg-tb20 dx">~~~我是有底线的！</div>
-    <div class="mg-tb20">~~~我是有底线的！</div>
+    <div class="mg-tb20"></div>
     <div class="mg-tb20"></div>
   </div>
 </template>
@@ -30,10 +30,24 @@ export default {
   },
   components: {},
   data() {
-    return {};
+    return {
+      nickname:''
+    };
   },
-  methods: {},
-  mounted() {},
+  methods: {
+     // 跳转到详情页传id过去
+    godetails(val,index) {
+      this.$router.push({ name: "details", query: { id: val } });
+      if(this.nickname !== null){
+        this.$utils.browse(this.hotGoods[index])
+      }
+      
+    }
+  },
+  mounted() {
+this.nickname = localStorage.getItem('nickname')
+      
+  },
   watch: {},
   computed: {}
 };

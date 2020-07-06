@@ -1,0 +1,560 @@
+2020-06-28 13:35:54,768 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 2828900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-28 16:05:56,398 ERROR 4432 [-/127.0.0.1/-/67ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, id: 'e53c046465204d4fb8f22431cc2807e7', mallPrice: 29.8 }" at path "count"
+    at model.Query.exec (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, id: 'e53c046465204d4fb8f22431cc2807e7', mallPrice: 29.8 }\""
+kind: "Number"
+value: {"count":2,"id":"e53c046465204d4fb8f22431cc2807e7","mallPrice":29.8}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 17:15:02,104 ERROR 4432 [-/127.0.0.1/-/8ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '江苏省',
+  city: '南京市',
+  county: '玄武区',
+  areaCode: '320102',
+  postalCode: '111111',
+  addressDetail: '杭州市西湖区 黄龙万科中心',
+  isDefault: true
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '江苏省',
+  city: '南京市',
+  county: '玄武区',
+  areaCode: '320102',
+  postalCode: '111111',
+  addressDetail: '杭州市西湖区 黄龙万科中心',
+  isDefault: true
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  country: '',\n  province: '江苏省',\n  city: '南京市',\n  county: '玄武区',\n  areaCode: '320102',\n  postalCode: '111111',\n  addressDetail: '杭州市西湖区 黄龙万科中心',\n  isDefault: true\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","country":"","province":"江苏省","city":"南京市","county":"玄武区","areaCode":"320102","postalCode":"111111","addressDetail":"杭州市西湖区 黄龙万科中心","isDefault":true},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 17:19:04,583 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '江苏省',
+  city: '南京市',
+  county: '玄武区',
+  areaCode: '320102',
+  postalCode: '111111',
+  addressDetail: '杭州市西湖区 黄龙万科中心',
+  isDefault: false
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '江苏省',
+  city: '南京市',
+  county: '玄武区',
+  areaCode: '320102',
+  postalCode: '111111',
+  addressDetail: '杭州市西湖区 黄龙万科中心',
+  isDefault: false
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  country: '',\n  province: '江苏省',\n  city: '南京市',\n  county: '玄武区',\n  areaCode: '320102',\n  postalCode: '111111',\n  addressDetail: '杭州市西湖区 黄龙万科中心',\n  isDefault: false\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","country":"","province":"江苏省","city":"南京市","county":"玄武区","areaCode":"320102","postalCode":"111111","addressDetail":"杭州市西湖区 黄龙万科中心","isDefault":false},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 17:27:48,831 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '天津市',
+  city: '天津市',
+  county: '和平区',
+  areaCode: '120101',
+  postalCode: '',
+  addressDetail: '士大夫说的',
+  isDefault: true
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '天津市',
+  city: '天津市',
+  county: '和平区',
+  areaCode: '120101',
+  postalCode: '',
+  addressDetail: '士大夫说的',
+  isDefault: true
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  country: '',\n  province: '天津市',\n  city: '天津市',\n  county: '和平区',\n  areaCode: '120101',\n  postalCode: '',\n  addressDetail: '士大夫说的',\n  isDefault: true\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","country":"","province":"天津市","city":"天津市","county":"和平区","areaCode":"120101","postalCode":"","addressDetail":"士大夫说的","isDefault":true},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 17:37:23,699 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '吉林省',
+  city: '长春市',
+  county: '南关区',
+  areaCode: '220102',
+  postalCode: '',
+  addressDetail: '武侯区江滨南路1号',
+  isDefault: false
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  country: '',
+  province: '吉林省',
+  city: '长春市',
+  county: '南关区',
+  areaCode: '220102',
+  postalCode: '',
+  addressDetail: '武侯区江滨南路1号',
+  isDefault: false
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  country: '',\n  province: '吉林省',\n  city: '长春市',\n  county: '南关区',\n  areaCode: '220102',\n  postalCode: '',\n  addressDetail: '武侯区江滨南路1号',\n  isDefault: false\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","country":"","province":"吉林省","city":"长春市","county":"南关区","areaCode":"220102","postalCode":"","addressDetail":"武侯区江滨南路1号","isDefault":false},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 17:44:27,488 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴铜线',
+  tel: '18981564387',
+  country: '',
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  areaCode: '110101',
+  postalCode: '',
+  addressDetail: 'qwe1111',
+  isDefault: true
+}" at path "name"
+  name: '吴铜线',
+  tel: '18981564387',
+  country: '',
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  areaCode: '110101',
+  postalCode: '',
+  addressDetail: 'qwe1111',
+  isDefault: true
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴铜线',\n  tel: '18981564387',\n  country: '',\n  province: '北京市',\n  city: '北京市',\n  county: '东城区',\n  areaCode: '110101',\n  postalCode: '',\n  addressDetail: 'qwe1111',\n  isDefault: true\n}\"","kind":"string","value":{"name":"吴铜线","tel":"18981564387","country":"","province":"北京市","city":"北京市","county":"东城区","areaCode":"110101","postalCode":"","addressDetail":"qwe1111","isDefault":true},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 17:46:51,934 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '12345645644',
+  country: '',
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  areaCode: '110101',
+  postalCode: '',
+  addressDetail: '东方广场',
+  isDefault: true
+}" at path "name"
+  name: '吴童仙',
+  tel: '12345645644',
+  country: '',
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  areaCode: '110101',
+  postalCode: '',
+  addressDetail: '东方广场',
+  isDefault: true
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '12345645644',\n  country: '',\n  province: '北京市',\n  city: '北京市',\n  county: '东城区',\n  areaCode: '110101',\n  postalCode: '',\n  addressDetail: '东方广场',\n  isDefault: true\n}\"","kind":"string","value":{"name":"吴童仙","tel":"12345645644","country":"","province":"北京市","city":"北京市","county":"东城区","areaCode":"110101","postalCode":"","addressDetail":"东方广场","isDefault":true},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 18:18:31,610 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 176461ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-28 18:19:50,738 ERROR 4432 [-/127.0.0.1/-/2ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  address: '河南省+郑州市+金水区+东门大桥c座13楼',
+  isDefault: true,
+  province: '河南省',
+  city: '郑州市',
+  county: '金水区',
+  addressDetail: '东门大桥c座13楼',
+  areaCode: '410105'
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  address: '河南省+郑州市+金水区+东门大桥c座13楼',
+  isDefault: true,
+  province: '河南省',
+  city: '郑州市',
+  county: '金水区',
+  addressDetail: '东门大桥c座13楼',
+  areaCode: '410105'
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  address: '河南省+郑州市+金水区+东门大桥c座13楼',\n  isDefault: true,\n  province: '河南省',\n  city: '郑州市',\n  county: '金水区',\n  addressDetail: '东门大桥c座13楼',\n  areaCode: '410105'\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","address":"河南省+郑州市+金水区+东门大桥c座13楼","isDefault":true,"province":"河南省","city":"郑州市","county":"金水区","addressDetail":"东门大桥c座13楼","areaCode":"410105"},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 18:21:05,223 ERROR 4432 [-/127.0.0.1/-/4ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  address: '黑龙江省+哈尔滨市+南岗区+东门大桥C座',
+  isDefault: true,
+  province: '黑龙江省',
+  city: '哈尔滨市',
+  county: '南岗区',
+  addressDetail: '东门大桥C座',
+  areaCode: '230103'
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  address: '黑龙江省+哈尔滨市+南岗区+东门大桥C座',
+  isDefault: true,
+  province: '黑龙江省',
+  city: '哈尔滨市',
+  county: '南岗区',
+  addressDetail: '东门大桥C座',
+  areaCode: '230103'
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  address: '黑龙江省+哈尔滨市+南岗区+东门大桥C座',\n  isDefault: true,\n  province: '黑龙江省',\n  city: '哈尔滨市',\n  county: '南岗区',\n  addressDetail: '东门大桥C座',\n  areaCode: '230103'\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","address":"黑龙江省+哈尔滨市+南岗区+东门大桥C座","isDefault":true,"province":"黑龙江省","city":"哈尔滨市","county":"南岗区","addressDetail":"东门大桥C座","areaCode":"230103"},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 18:22:57,641 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564387',
+  address: '北京市北京市东城区东门大桥C座',
+  isDefault: true,
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  addressDetail: '东门大桥C座',
+  areaCode: '110101'
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564387',
+  address: '北京市北京市东城区东门大桥C座',
+  isDefault: true,
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  addressDetail: '东门大桥C座',
+  areaCode: '110101'
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564387',\n  address: '北京市北京市东城区东门大桥C座',\n  isDefault: true,\n  province: '北京市',\n  city: '北京市',\n  county: '东城区',\n  addressDetail: '东门大桥C座',\n  areaCode: '110101'\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564387","address":"北京市北京市东城区东门大桥C座","isDefault":true,"province":"北京市","city":"北京市","county":"东城区","addressDetail":"东门大桥C座","areaCode":"110101"},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 18:25:26,453 ERROR 4432 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.ValidationError: Address validation failed: name: Cast to string failed for value "{
+  name: '吴童仙',
+  tel: '18981564538',
+  address: '北京市北京市东城区东门大桥',
+  isDefault: true,
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  addressDetail: '东门大桥',
+  areaCode: '110101'
+}" at path "name"
+  name: '吴童仙',
+  tel: '18981564538',
+  address: '北京市北京市东城区东门大桥',
+  isDefault: true,
+  province: '北京市',
+  city: '北京市',
+  county: '东城区',
+  addressDetail: '东门大桥',
+  areaCode: '110101'
+}" at path "name"
+    at model.Document.invalidate (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\86189\Desktop\mall\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.address (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+errors: {"name":{"stringValue":"\"{\n  name: '吴童仙',\n  tel: '18981564538',\n  address: '北京市北京市东城区东门大桥',\n  isDefault: true,\n  province: '北京市',\n  city: '北京市',\n  county: '东城区',\n  addressDetail: '东门大桥',\n  areaCode: '110101'\n}\"","kind":"string","value":{"name":"吴童仙","tel":"18981564538","address":"北京市北京市东城区东门大桥","isDefault":true,"province":"北京市","city":"北京市","county":"东城区","addressDetail":"东门大桥","areaCode":"110101"},"path":"name","reason":null}}
+_message: "Address validation failed"
+pid: 4432
+hostname: Wu-Tong-Xian
+
+2020-06-28 19:20:43,970 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 1832241ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-28 21:07:53,694 ERROR 7888 nodejs.ClusterClientNoResponseError: client no response in 6429248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7888
+hostname: Wu-Tong-Xian
+
+2020-06-29 08:04:17,700 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 1882166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 13:33:48,998 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 3370966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 15:50:23,011 ERROR 13848 [-/127.0.0.1/-/14ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\86189\Desktop\mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 13848
+hostname: Wu-Tong-Xian
+
+2020-06-29 15:51:11,328 ERROR 13848 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\86189\Desktop\mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 13848
+hostname: Wu-Tong-Xian
+
+2020-06-29 20:01:15,416 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 3945363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 20:29:00,647 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 705156ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+
+2020-06-29 20:57:03,944 ERROR 5752 nodejs.ClusterClientNoResponseError: client no response in 402481ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5752
+hostname: Wu-Tong-Xian
+

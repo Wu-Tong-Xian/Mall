@@ -1,0 +1,109 @@
+2020-06-30 13:14:54,376 ERROR 12756 nodejs.ClusterClientNoResponseError: client no response in 4731922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12756
+hostname: Wu-Tong-Xian
+
+2020-06-30 18:54:02,416 ERROR 12756 nodejs.ClusterClientNoResponseError: client no response in 2706741ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12756
+hostname: Wu-Tong-Xian
+
+2020-06-30 20:45:21,347 ERROR 12756 nodejs.ClusterClientNoResponseError: client no response in 5647955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 12756
+hostname: Wu-Tong-Xian
+
+2020-07-01 13:20:18,434 ERROR 11828 nodejs.ClusterClientNoResponseError: client no response in 4688326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 11828
+hostname: Wu-Tong-Xian
+
+2020-07-01 18:11:41,651 ERROR 13016 [-/127.0.0.1/-/12ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (C:\Users\86189\Desktop\mall\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\86189\Desktop\mall\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\86189\Desktop\mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\86189\Desktop\mall\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\86189\Desktop\mall\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 13016
+hostname: Wu-Tong-Xian
+
+2020-07-02 13:36:34,441 ERROR 14064 nodejs.ClusterClientNoResponseError: client no response in 5452416ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 14064
+hostname: Wu-Tong-Xian
+
+2020-07-03 10:10:17,451 ERROR 2184 nodejs.ClusterClientNoResponseError: client no response in 1056771ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2184
+hostname: Wu-Tong-Xian
+
+2020-07-03 12:22:46,351 ERROR 3748 nodejs.ClusterClientNoResponseError: client no response in 834947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3748
+hostname: Wu-Tong-Xian
+
+2020-07-03 12:30:25,655 ERROR 3748 nodejs.ClusterClientNoResponseError: client no response in 79131ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3748
+hostname: Wu-Tong-Xian
+
+2020-07-03 13:29:49,120 ERROR 3748 nodejs.ClusterClientNoResponseError: client no response in 2343441ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3748
+hostname: Wu-Tong-Xian
+
+2020-07-06 12:12:46,984 ERROR 10608 nodejs.ClusterClientNoResponseError: client no response in 173362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10608
+hostname: Wu-Tong-Xian
+
+2020-07-06 13:31:04,934 ERROR 10608 nodejs.ClusterClientNoResponseError: client no response in 2677895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\86189\Desktop\mall\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10608
+hostname: Wu-Tong-Xian
+

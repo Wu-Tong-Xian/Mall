@@ -1,17 +1,17 @@
 <template>
   <div class="floor-box">
     <!--1F-->
-    <div class="mg-tb10">
-      <div class="i-box">
+    <div class="mg-tb10 ">
+      <div class="i-box pd-t20">
         <i>1F</i> 休闲食品
       </div>
     </div>
     <div class="floor">
       <div v-for="(item,index) in floor1" :key="index">
-        <div v-if="index<1">
+        <div v-if="index<1" @click="godetails(item.goodsId,index)">
           <img :src="item.image" alt class="img1" />
         </div>
-        <div v-if="index>=1">
+        <div v-if="index>=1" @click="godetails(item.goodsId,index)">
           <img :src="item.image" alt class="img2" />
         </div>
       </div>
@@ -24,10 +24,10 @@
     </div>
     <div class="floor">
       <div v-for="(item,index) in floor2" :key="index">
-        <div v-if="index<1">
+        <div v-if="index<1" @click="godetails(item.goodsId,index)">
           <img :src="item.image" alt class="img1" />
         </div>
-        <div v-if="index>=1">
+        <div v-if="index>=1" @click="godetails(item.goodsId,index)">
           <img :src="item.image" alt class="img2" />
         </div>
       </div>
@@ -40,10 +40,10 @@
     </div>
     <div class="floor">
       <div v-for="(item,index) in floor3" :key="index">
-        <div v-if="index<1">
+        <div v-if="index<1" @click="godetails(item.goodsId,index)">
           <img :src="item.image" alt class="img1" />
         </div>
-        <div v-if="index>=1">
+        <div v-if="index>=1" @click="godetails(item.goodsId,index)">
           <img :src="item.image" alt class="img2" />
         </div>
       </div>
@@ -74,10 +74,26 @@ export default {
   },
   components: {},
   data() {
-    return {};
+    return {
+      nickname:''
+    };
   },
-  methods: {},
-  mounted() {},
+  methods: {
+     // 跳转到详情页传id过去
+    godetails(val,index) {
+      this.$router.push({ name: "details", query: { id: val } });
+      // 模块化recentlyViewed(最近浏览 跳转到详情就算)
+      if(this.nickname !== null){
+        this.$utils.browse(this.floor1[index])
+      this.$utils.browse(this.floor2[index])
+      this.$utils.browse(this.floor3[index])
+      }
+      
+    }
+  },
+  mounted() {
+    this.nickname = localStorage.getItem('nickname')
+  },
   watch: {},
   computed: {}
 };

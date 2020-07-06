@@ -66,6 +66,9 @@
 .col4{
   background: red;
 }
+.col5{
+  color: red;
+}
 
 .fz12 {
   font-size: 12px;
@@ -90,7 +93,9 @@
 .pd-tb20 {
   padding: 20px 0 20px 0;
 }
-
+.mg-lr10 {
+  margin: 0 20px 0 20px;
+}
 // 外边距
 .m0 {
   margin: 0 auto;
@@ -161,11 +166,8 @@ fl-nowrap {
 // 超出本分文字隐藏 用..表示
 .t-none {
   white-space: nowrap;
-
   overflow: hidden;
-
   text-overflow: ellipsis;
-
   width: 28vm;
 }
 // 鼠标移过变小手
@@ -182,4 +184,21 @@ fl-nowrap {
   width:100%;
   z-index:999;
   background: #ededed;
+}
+// 下滑线
+.t-u{
+  text-decoration:underline
+}
+// 删除线
+.t-l{
+  text-decoration:line-through
+}// 上滑线
+.t-o{
+  text-decoration:overline
+}
+.p-r{
+  position: relative;
+}
+.mg-t2{
+  margin-top:2px;
 }
